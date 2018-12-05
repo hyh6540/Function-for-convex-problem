@@ -1,7 +1,7 @@
 ```matlab
 function [x,O_min] = min_convex_newton(O_fun, dd_f, d_f, A_eq,b_eq, O_neq,dd_neq,d_neq, x0)
 ```
-主要针对牛顿下降法，其中各个变量含义如下：
+该函数使用牛顿下降法，其中各个变量含义如下：
 - O_fun: 目标函数
 - dd_f: 目标函数的二阶导数
 - d_f: 目标函数的一阶导数
